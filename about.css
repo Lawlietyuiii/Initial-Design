@@ -1,0 +1,90 @@
+.about-page {
+  width: min(1000px, calc(100% - 40px));
+  margin: 42px auto 60px;
+}
+
+.about-hero {
+  margin-bottom: 24px;
+  padding: 38px;
+  border-radius: 16px;
+  color: white;
+  background: linear-gradient(135deg, #245b75, #4b8794);
+}
+
+.about-hero .eyebrow {
+  color: #f4d779;
+}
+
+.about-hero h2 {
+  margin: 0 0 10px;
+  font-size: clamp(2rem, 5vw, 2.8rem);
+}
+
+.about-hero p:last-child {
+  max-width: 650px;
+  margin-bottom: 0;
+  color: #e5f0f3;
+  line-height: 1.7;
+}
+
+.about-card {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.8fr) 1.2fr;
+  gap: 34px;
+  align-items: center;
+  padding: 32px;
+  border: 1px solid #e5eaf1;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 8px 24px rgba(25, 42, 70, 0.05);
+}
+
+.about-photo {
+  display: grid;
+  min-height: 330px;
+  place-items: center;
+  border-radius: 12px;
+  color: #567083;
+  background: linear-gradient(145deg, #dce9ed, #b9d0d8);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.about-copy h3 {
+  margin-top: 0;
+  color: #17243b;
+  font-size: 1.5rem;
+}
+
+.about-copy p {
+  color: #5d6879;
+  line-height: 1.8;
+}
+
+.about-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.about-facts div {
+  display: flex;
+  flex: 1 1 110px;
+  flex-direction: column;
+  gap: 5px;
+  padding: 14px;
+  border-radius: 10px;
+  background: #f2f6f8;
+}
+
+.about-facts strong {
+  color: #28718a;
+  font-size: 1.3rem;
+}
+
+.about-facts span {
+  color: #5d6879;
+  font-size: 0.85rem;
+}

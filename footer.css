@@ -1,0 +1,18 @@
+.site-footer {
+  padding: 34px 20px;
+  color: #e8eef5;
+  text-align: center;
+  background: #101a2e;
+}
+
+.site-footer h2 {
+  margin: 0 0 8px;
+  color: white;
+  font-size: 1.35rem;
+}
+
+.site-footer p {
+  margin: 0;
+  color: #aebdce;
+  font-size: 0.9rem;
+}
